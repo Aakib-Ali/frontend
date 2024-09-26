@@ -1,0 +1,81 @@
+.dashboard-container {
+     padding: 20px;
+     background-color: #f5f5f5;
+     border-radius: 10px;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+     max-width: 1200px;
+     margin: 0 auto;
+ }
+ 
+ .chart-and-table {
+     display: flex;
+     justify-content: space-between;
+     align-items: flex-start;
+ }
+ 
+ .chart-container {
+     width: 45%;
+     margin-right: 20px;
+ }
+ 
+ .table-container {
+     width: 45%;
+     overflow: hidden; /* Prevents overflow */
+ }
+ 
+ h2, h3 {
+     color: #333;
+ }
+ 
+ .table-wrapper {
+     max-height: 300px; /* Set max height for the table wrapper */
+     overflow-y: auto;  /* Enables vertical scrolling */
+ }
+ 
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-top: 10px;
+ }
+ 
+ th, td {
+     padding: 10px;
+     text-align: left;
+     border-bottom: 1px solid #ddd;
+ }
+ 
+ th {
+     background-color: #007bff;
+     color: white;
+ }
+ 
+ .download-btn {
+     margin-top: 20px;
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+ 
+ .download-btn:hover {
+     background-color: #0056b3;
+ }
+ .table-container {
+     width: 45%;
+     overflow: hidden; 
+ }
+ 
+ .table-wrapper {
+     max-height: 300px; 
+     overflow-y: auto;  
+     overflow-x: auto; /* Enables horizontal scrolling */
+ }
+ 
+ .scrollable-table {
+     min-width: 600px; /* Set minimum width to allow scrolling */
+     overflow-x: auto; /* Enables horizontal scrolling */
+ }
+ 
